@@ -54,14 +54,26 @@
   font-size: 22px;
 }
 
-.picture {
-  position: absolute;
-  width: 576px;
-  height: 640px;
-  left: 720px;
-  top: 90px;
+@media screen and (max-width: 4000px) {
+  .picture {
+    background-image: url("Bilder/food.png");
+    position: absolute;
+    width: 576px;
+    height: 640px;
+    left: 720px;
+    top: 90px;
+  }
 }
-
+@media screen and (max-width: 800px) {
+  .picture {
+    background-image: url("Bilder/food.png");
+    position: absolute;
+    width: 617px;
+    height: 512px;
+    left: 75px;
+    top: 512px;
+  }
+}
 body {
   margin: 100px;
 }
