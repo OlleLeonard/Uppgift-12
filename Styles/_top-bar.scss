@@ -1,3 +1,59 @@
+@media screen and (max-width: 4000px){
+    .fa-solid{
+        visibility:hidden;
+        
+    }
+}
+
+@media screen and (max-width: 800px){
+    .fa-solid{
+        visibility:visible;
+   
+    }
+}
+
+@media screen and (max-width: 4000px){
+    .works-box{
+        display:visible;
+        
+    }
+}
+
+@media screen and (max-width: 800px){
+    .works-box{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 4000px){
+    .service-box{
+        display:visible;
+        
+    }
+}
+
+@media screen and (max-width: 800px){
+    .service-box{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 4000px){
+    .contacts-box{
+        display:visible;
+        
+    }
+}
+
+@media screen and (max-width: 800px){
+    .contacts-box{
+        display:none;
+    }
+}
+
+
+
+
 .head{
     max-width: 600px;
     display:flex;
@@ -11,6 +67,7 @@
     font-size: 24px;  
 
 }
+
 .top-bar{
     max-width: 400px;
 }
